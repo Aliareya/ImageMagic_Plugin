@@ -1,0 +1,24 @@
+{
+    "name": "pomtech/imagemagic",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pomtech\\Imagemagic\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Habib Mosavi",
+            "email": "h.mosavi@pomtech.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0",
+        "squizlabs/php_codesniffer": "^3.10"
+    }
+}

@@ -1,0 +1,118 @@
+/* style for control part*/
+#title-functionality{
+   font-weight: 800;
+   text-align: center;
+   font-size: 21px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="number"] {
+   height: 35px;
+   width: 115px;
+}
+input[type="range"] {
+   width: 86%;
+}
+#comprses-quality{
+   margin-bottom: -2px;
+   margin-left: 4px;
+}
+.ratio-control,.slection-control,.cordinat-control ,
+.rotate-control,.effect-control,.comprese-control{
+   display:flex;
+   align-items:center;
+   gap:10px;
+   flex-wrap: wrap;
+}
+.croptype button , .resizetype button , .rotatetype button,
+.effecttype button,.compresetype button{
+   margin-top: 27px;
+   width: 100px;
+   font-weight: 500;
+   font-size: 15px;
+   height: 30px;
+}
+
+.rotate-control button {
+   width: 40px;
+   margin-top: 3px;
+   color: rgb(41, 4, 4);
+}
+.effect-control button{
+   width: 113px;
+   margin-top: 3px;
+   color: rgb(41, 4, 4);
+   font-weight: 600;
+}
+#cancel{
+   margin-left: 24px;
+}
+
+/* style for control container is visible */
+.resize_control,.crop_control,.rotate_control,
+.effect_control,.comprese_control {
+   padding: 10px 20px;
+}
+/* style for imagemagic buttton*/
+#newbtn {
+   padding: 6px;
+   color: #0073b1;
+   margin-left: 4px;
+   border: 1px solid #0073b1;
+   border-radius: 4px;
+   font-size: 12px;
+   font-weight: 700;
+}
+
+/* style for toolber button*/
+.imagemagic_edite_button{
+   margin-right: 5px;
+   padding: 5px 10px;
+   border: 1px solid #ddd;
+   border-radius: 3px;
+   background: #f7f7f7;
+   cursor: pointer;
+   font-weight: 700;
+   font-size: 15px;
+}
+.imagemagic_edite_button span{
+   margin-right: 5px;
+   color: rgb(33, 9, 58);
+}
+.imagemagic_toolbar{
+   margin-top: 10px;
+   margin-left: 10px;
+}
+#imagemagic_save{
+   background-color: rgb(33, 9, 58);
+   color: #f7f7f7;
+}
+
+/* style for Edite image container */
+.imagemagic_image_container {
+   margin-top: 15px;
+   margin-left: 10px;
+   padding: 21px;
+   width: 790px;
+   height: 450px;
+   background: rgb(227 227 227);
+   border-radius: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
+.image_show {
+   max-width: 450px;
+   max-height: 450px;
+}
+.imagemagic_control_container{
+   width: 317px;
+   height: 435px;
+   border-radius: 5px;
+   margin-top: -4px;
+   background-color: #ffffff;
+}
+#image_for_edite{
+   max-width: 455px;
+   max-height: 440px;
+}
